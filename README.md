@@ -1,18 +1,21 @@
-# Blogs of O
+# O's Blogs
 
 Blogs
-
-## 特点
-
-- 从一个问题出发，延伸出其他的知识点
-- 用比喻的方式来解释问题
 
 ## 标签
 
 - Front-End
     - javascript
-    - html
-- Back-end
+    - HTML
+    - CSS
+- Back-End
+    - node.js
+    - python
 - Database
+    - MongoDB
 - Linux
 - Shell
+
+## 方向
+
+- 从一个问题开始，写出一篇blog
