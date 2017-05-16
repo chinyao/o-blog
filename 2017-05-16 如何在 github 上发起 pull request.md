@@ -92,3 +92,4 @@ fatal: unable to access 'https://github.com/OuYancey/o-blog.git/': The requested
 ## PR Lists
 
 - [@OuYancey](https://github.com/OuYancey/) 2017-05-16 18:38
+- [@ChinYao](https://github.com/chinyao/) 2017-05-16 18:50
