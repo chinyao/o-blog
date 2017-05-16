@@ -16,14 +16,9 @@ Pull Request(PR) 一般分为两种：
 
 ## creating a pull request
 
-这是 github 本地分支之间的 PR，这种 PR 仅仅只是我们项目内代码的合并。
-但是对于 **Pull Request** 对于我们来说，一般是用于参与开源项目(比如，帮助我修改维护blog，=。=)。
-
 略(PR Welcome)
 
 ## creating a pull request from a fork
-
-这种 **Pull Request** 是一般用于参与开源项目的方式
 
 ### 第零步：尝试
 
@@ -46,7 +41,7 @@ fatal: unable to access 'https://github.com/OuYancey/o-blog.git/': The requested
 
 ### 第一步：fork
 
-1. 找到你想要参与的项目仓库（比如此项目），点击右上角的 **fork**， 如图：
+1.1 找到你想要参与的项目仓库（比如此项目），点击右上角的 **fork**， 如图：
 
 ![第一步：fork](/images/2017-05-16-01.png)
 
@@ -58,10 +53,7 @@ fatal: unable to access 'https://github.com/OuYancey/o-blog.git/': The requested
 
 ![第二步：commit](/images/2017-05-16-02.png)
 
-2.3 在这篇文章最后 PR 名单中，添加上你的大名，按照格式
-```markdown
-- @<your username>
-```
+2.3 在这篇文章最后 PR 名单中，添加上你的大名，按照格式：`- @<your username> <time>`
 
 2.4 填写 commit 信息
 
@@ -88,14 +80,15 @@ fatal: unable to access 'https://github.com/OuYancey/o-blog.git/': The requested
 - [ant-design contributing guide](https://github.com/ant-design/ant-design/blob/master/.github/CONTRIBUTING.md)
 
 仔细看看这些内容，你会注意到一个技术向的关键词: **Rebase**
-> **Rebase** before creating a PR to keep commit history clear
-> 提交 PR 前请 **rebase**，确保 commit 记录的整洁
+> In element: **Rebase** before creating a PR to keep commit history clear
+
+> In angt-design: 提交 PR 前请 **rebase**，确保 commit 记录的整洁
 
 ## 习题
 
-1. 发起一个 PR ，在下面的 PR Lists 中添加上你的大名，注意提交规范( @<username> <time> )，不符合规范可是不会 merge 的哟。
+1. 发起一个 PR ，在下面的 PR Lists 中添加上你的大名，注意提交规范( @<username> <time>)，不符合规范可是不会 merge 的哟。
 2. 如何进行 **rebase**, 为什么要进行 rebase 操作，他和 merge 的异同？
 
 ## PR Lists
 
-- @OuYancey 2017-05-16 18:38
+- [@OuYancey](https://github.com/OuYancey/) 2017-05-16 18:38
